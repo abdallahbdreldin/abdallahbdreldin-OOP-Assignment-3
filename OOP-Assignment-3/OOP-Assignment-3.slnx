@@ -1,6 +1,14 @@
 <Solution>
+  <Folder Name="/Collections/">
+    <File Path="Answers.md" />
+    <Project Path="ExtensionMethods/ExtensionMethods.csproj" Id="b589a388-8b57-46e4-8437-242ce22f9f20" />
+  </Folder>
+  <Folder Name="/Refacoring/">
+    <Project Path="Refactoring/Part1/Part1.csproj" />
+    <Project Path="Refactoring/Part2/Part2.csproj" />
+    <Project Path="Refactoring/Part3/Part3.csproj" />
+  </Folder>
   <Folder Name="/Solution Items/">
     <File Path=".gitignore" />
   </Folder>
-  <Project Path="Refactoring/Refactoring.csproj" />
 </Solution>
