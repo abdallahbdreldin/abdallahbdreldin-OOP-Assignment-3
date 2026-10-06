@@ -1,9 +1,11 @@
-﻿namespace Generics.Entities
+﻿using Generics.Interfaces;
+
+namespace Generics.Entities
 {
-    public class Student
+    public class Student : IHasId
     {
         private static int _counter = 0;
-        public int Id { get; set; }
+        public int Id { get; }
         public string Name { get; set; } = null!;
         public Student(string name)
         {

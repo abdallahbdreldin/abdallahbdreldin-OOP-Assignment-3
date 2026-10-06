@@ -1,8 +1,8 @@
-﻿using Generics.Entities;
+﻿using Generics.Interfaces;
 
 namespace Generics.Stores
 {
-    public class GenericStore<T> where T : class
+    public class GenericStore<T> where T : class, IHasId
     {
         private readonly List<T> _items = new();
 
